@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="footer__info">
             <div className="footer__header">
               <div className="logo">
-                <img src="/images/logo.svg" alt="logo" className="logo__img" />
+                {/* <img src="/images/logo.svg" alt="logo" className="logo__img" /> */}
                 <div className="logo__name">Venom</div>
               </div>
               {/* <a className="footer__email" href={media.url("email")}>

@@ -6,7 +6,7 @@
     "contacts": "liên hệ"
   },
   "footer": {
-    "description": "Lập trình viên web tại Việt Nam",
+    "description": "Kỹ sư phần mềm tại Việt Nam",
     "copyright": "Bản quyền 2023. Thực hiện bởi Elias",
     "media": "mạng xã hội"
   },
@@ -14,7 +14,7 @@
     "frontend": "Frontend",
     "backend": "Backend",
     "database": "Database",
-    "devops": "DevOps",
+    "devops": "DevOps & Tools",
     "tool": "Công cụ",
     "blockchain": "Blockchain"
   },
@@ -76,7 +76,7 @@
     "home": {
       "hero": {
         "title2": "Tôi là một <span>nhà thiết kế web</span> và <span>lập trình viên giao diện</span>",
-        "title": "Tôi là một <span>lập trình viên web</span>",
+        "title": "Tôi là một <span>kỹ sư phần mềm</span>",
         "description": "Tôi tạo ra các website responsive nơi công nghệ gặp gỡ sự sáng tạo",
         "button": "Liên hệ với tôi",
         "status": "Sẵn sàng cho các cơ hội mới"
@@ -95,7 +95,7 @@
       "about": {
         "title": "giới thiệu",
         "description": [
-          "Tôi là một lập trình viên web đam mê, chuyên tạo ra các website responsive nơi công nghệ gặp gỡ sự sáng tạo. Với nền tảng vững chắc trong HTML, CSS, JavaScript, TypeScript và các khung công tác như Vue, Nuxt, tôi tập trung xây dựng các giao diện thân thiện với người dùng, tối ưu cho mọi thiết bị.",
+          "Tôi là một kỹ sư phần mềm đam mê, chuyên tạo ra các website responsive nơi công nghệ gặp gỡ sự sáng tạo. Với nền tảng vững chắc trong HTML, CSS, JavaScript, TypeScript và các khung công tác như Vue, Nuxt, tôi tập trung xây dựng các giao diện thân thiện với người dùng, tối ưu cho mọi thiết bị.",
           "Tư duy logic và óc sáng tạo thúc đẩy tôi tạo ra các giải pháp web hiệu quả, hấp dẫn về mặt thị giác. Tôi không ngừng học hỏi các công nghệ mới để mang lại sản phẩm chất lượng cao, đáp ứng nhu cầu của người dùng và doanh nghiệp."
         ],
         "button": "Xem tất cả"
@@ -117,7 +117,7 @@
       "description": "Tôi là ai",
       "about": {
         "description": [
-          "Tôi là một lập trình viên web đam mê, chuyên tạo ra các website responsive nơi công nghệ gặp gỡ sự sáng tạo. Với nền tảng vững chắc trong HTML, CSS, JavaScript, TypeScript và các khung công tác như Vue, Nuxt, tôi tập trung xây dựng các giao diện thân thiện với người dùng, tối ưu cho mọi thiết bị.",
+          "Tôi là một kỹ sư phần mềm đam mê, chuyên tạo ra các website responsive nơi công nghệ gặp gỡ sự sáng tạo. Với nền tảng vững chắc trong HTML, CSS, JavaScript, TypeScript và các khung công tác như Vue, Nuxt, tôi tập trung xây dựng các giao diện thân thiện với người dùng, tối ưu cho mọi thiết bị.",
           "Tư duy logic và óc sáng tạo thúc đẩy tôi tạo ra các giải pháp web hiệu quả, hấp dẫn về mặt thị giác. Tôi không ngừng học hỏi các công nghệ mới để mang lại sản phẩm chất lượng cao, đáp ứng nhu cầu của người dùng và doanh nghiệp."
         ]
       },

@@ -181,6 +181,40 @@ html {
 
 .logo__name {
   font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  /* ShinyText: base color with a highlight sweeping across the glyphs */
+  color: transparent;
+  background-image: linear-gradient(
+    120deg,
+    var(--gray) 40%,
+    var(--white) 50%,
+    var(--gray) 60%
+  );
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shiny-text 3s linear infinite;
+}
+
+.logo__name:hover {
+  animation-duration: 1.5s;
+}
+
+@keyframes shiny-text {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo__name {
+    animation: none;
+  }
 }
 
 /* ─── Media icon ─────────────────────────────────────────── */
@@ -728,40 +762,48 @@ html {
 
 .skills__content {
   display: flex;
-  gap: 32px;
+  gap: 80px;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  /* stretch so the left illustration matches the height of the skills list */
+  align-items: stretch;
 }
 
 .skills__list {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 16px;
-  flex: 0 0 auto;
-  align-items: start;
+  /* Masonry-style columns: cards pack tightly so vertical gaps stay equal */
+  display: block;
+  column-count: 2;
+  column-fill: balance;
+  column-gap: 16px;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .skills .skill-block {
-  margin-bottom: 0;
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin-bottom: 40px;
+  break-inside: avoid;
 }
 
 @media (max-width: 768px) {
   .skills__list {
-    grid-template-columns: repeat(2, 1fr);
+    flex-basis: 100%;
     width: 100%;
   }
 }
 
 @media (max-width: 500px) {
   .skills__list {
-    grid-template-columns: 1fr;
+    column-count: 1;
   }
 }
 
 .skills__illustrations {
-  flex: 1 1 300px;
-  max-width: 420px;
+  flex: 1 1 0;
 }
 
 /* ─── Illustrations decorative ───────────────────────────── */

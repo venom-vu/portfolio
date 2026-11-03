@@ -23,7 +23,9 @@ export default function Header() {
   // Lock body scroll when drawer open
   useEffect(() => {
     document.body.style.overflow = drawerOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [drawerOpen]);
 
   return (
@@ -43,7 +45,7 @@ export default function Header() {
           <div className="header__inner">
             {/* Logo */}
             <a className="logo" href="/">
-              <img className="logo__img" src="/images/logo.svg" alt="logo" />
+              {/* <img className="logo__img" src="/images/logo.svg" alt="logo" /> */}
               <span className="logo__name">Venom</span>
             </a>
 
@@ -93,10 +95,7 @@ export default function Header() {
 
       {/* Mobile drawer overlay */}
       {drawerOpen && (
-        <div
-          className="drawer-overlay"
-          onClick={() => setDrawerOpen(false)}
-        />
+        <div className="drawer-overlay" onClick={() => setDrawerOpen(false)} />
       )}
 
       {/* Mobile drawer sheet */}
